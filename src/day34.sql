@@ -30,3 +30,6 @@ select * from emp where ename like '이%';
 select * from emp where ename like '_순신';
 
 select * from emp where ename not like '%길%';
+
+select * from emp order by empno desc;
+select * from emp order by sal;
